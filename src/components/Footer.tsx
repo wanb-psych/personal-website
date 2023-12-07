@@ -31,7 +31,7 @@ export const Footer = () => {
       <F.Text
         data-v2="footer"
         theme={theme}
-        aria-label="Designed and built by Adam Alston"
+        aria-label="Designed and built by Adam Alston, modified by Michal Czuper"
       >
         {'Designed and built by '}
         <F.Link
