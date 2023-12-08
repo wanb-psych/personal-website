@@ -58,7 +58,7 @@ export const Footer = () => {
             <F.Link
               data-v2="source"
               theme={theme}
-              href="https://github.com/adamalston/v2/"
+              href="https://github.com/coolbigbear/personal-website"
               aria-label="Source code"
               title="View this website's source code in GitHub"
             >

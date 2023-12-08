@@ -1,8 +1,8 @@
-# <img alt="Atom icon" src="public/icons/favicon.svg" height="24"/> adamalston<span></span>.com &middot; [![CI](https://github.com/adamalston/v2/actions/workflows/ci.yml/badge.svg)](https://github.com/adamalston/v2/actions/workflows/ci.yml) [![Netlify status](https://api.netlify.com/api/v1/badges/332bbd91-59b7-4091-8781-6f41330399b4/deploy-status)](https://app.netlify.com/sites/adamalston/deploys)
+# <img alt="Atom icon" src="public/icons/favicon.svg" height="24"/> michalczuper<span></span>.com &middot; [![CI](https://github.com/adamalston/v2/actions/workflows/ci.yml/badge.svg)](https://github.com/adamalston/v2/actions/workflows/ci.yml) [![Netlify Status](https://api.netlify.com/api/v1/badges/b382074f-14cf-4ff5-b1a8-400babdcebe2/deploy-status)](https://app.netlify.com/sites/relaxed-swan-6bb7d2/deploys)
 
-The [adamalston.com](https://www.adamalston.com) website is built using [React](https://react.dev) and hosted on [Netlify](https://www.netlify.com).
+The [michalczuper.com](https://www.michalczuper.com) website is built using [React](https://react.dev) and hosted on [Netlify](https://www.netlify.com) forked from [Adam Alston](https://github.com/adamalston/v2).
 
-<img alt="Desktop preview" src="images/desktop.png" float="left" height="370"/> <img alt="Mobile preview" src="images/mobile.png" align="right" height="370"/>
+<img alt="Desktop preview" src="images/desktop.png" float="left" height="300"/> <img alt="Mobile preview" src="images/mobile.png" align="right" height="370"/>
 
 This website is designed to be simple and accessible. Dynamic particles create an interactive experience for visitors. The site offers two themes via a toggle: a dark theme (default) and a light theme. The selected theme persists between tabs, windows, and page reloads.
 
@@ -10,8 +10,7 @@ Optimized for mobile devices with screen sizes ranging from 4-inch smartphones t
 
 ## <img alt="Code logo" src="https://git.io/JUnUc" height="18"/> Open source
 
-This website is open source with the hope that others will use the code to create their own websites. I ask that this code be used with attribution, as a significant amount of time was spent on writing and optimizing it. Please give proper credit by linking back to [adamalston.com](https://www.adamalston.com). Thank you!
-
+This website is open source with the hope that others will use the code to create their own websites.
 <details>
   <summary><b>Install and setup</b></summary>
 
@@ -55,10 +54,6 @@ Text and icons are designed with a color contrast ratio greater than 7:1, satisf
 | Purple | ![Purple](https://via.placeholder.com/16/c912ed?text=+) | `c912ed` |
 | Silver | ![Silver](https://via.placeholder.com/16/cccccc?text=+) | `cccccc` |
 | White  | ![White](https://via.placeholder.com/16/ffffff?text=+)  | `ffffff` |
-
-## Previous version
-
-For a look at the first version of my website, and to see how it has evolved, visit [v1](https://github.com/adamalston/v1).
 
 ---
 
