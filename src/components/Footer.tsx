@@ -41,7 +41,16 @@ export const Footer = () => {
           aria-label="Adam's website"
           title="A link to Adam's personal website"
         >
-          {'Adam Alston'}
+          {'Adam Alston, modified by '}
+        </F.Link>
+        <F.Link
+          data-v2="modifier"
+          theme={theme}
+          href="https://www.michalczuper.com"
+          aria-label="Michal's website"
+          title="A link to Michal's personal website"
+        >
+          {'Michal Czuper'}
         </F.Link>
         {!isMobile && (
           <>
