@@ -85,31 +85,35 @@ const Container = styled.div`
       font-size: 1rem;
     }
   }
+  border: solid 3px;
+  transition: border 0.5s linear;
+  border-color: ${({ theme }) => theme.primaryTextColor};
+  border-radius: 5px;
 `;
 
 export const Buttons = () => {
   const { config, theme } = useContext(AppContext);
 
   return (
-    <Container theme={theme}>
-      {config.buttons.map(({ name, display, aria, icon, href }) => (
-        <span className="button-container" key={name}>
-          <a
-            data-v2={`button-${display}`}
-            className="button"
-            href={href}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={aria}
-            title={aria}
-          >
-            <div className="icon">{icon}</div>
-            <span className="icon_title" data-v2={display}>
-              {display}
-            </span>
-          </a>
-        </span>
-      ))}
-    </Container>
+      <Container theme={theme} className='bounce'>
+        {config.buttons.map(({ name, display, aria, icon, href }) => (
+          <span className="button-container" key={name}>
+            <a
+              data-v2={`button-${display}`}
+              className="button"
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={aria}
+              title={aria}
+            >
+              <div className="icon">{icon}</div>
+              <span className="icon_title" data-v2={display}>
+                {display}
+              </span>
+            </a>
+          </span>
+        ))}
+      </Container>
   );
 };
