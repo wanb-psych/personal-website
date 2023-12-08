@@ -1,18 +1,19 @@
-import type { ISourceOptions } from 'tsparticles';
+import type { ISourceOptions } from '@tsparticles/engine';
 
 // https://github.com/matteobruni/tsparticles/issues/2771
 export const options: ISourceOptions = {
-  retinaDetect: true,
-  fpsLimit: 90,
+  retinaDetect: false,
+  fpsLimit: 120,
   fullScreen: {
-    enable: false,
+    enable: true,
   },
   particles: {
     number: {
-      value: 100,
+      value: 200,
       density: {
         enable: true,
-        area: 800,
+        height: 800,
+        width: 800
       },
     },
     color: {
@@ -20,41 +21,15 @@ export const options: ISourceOptions = {
     },
     shape: {
       type: 'circle',
-      stroke: {
-        width: 0,
-        color: '000',
-      },
-      polygon: {
-        sides: 5,
-      },
-      image: {
-        src: 'img/github.svg',
-        width: 100,
-        height: 100,
-      },
     },
     opacity: {
       value: 0.9,
-      random: false,
-      anim: {
-        enable: false,
-        speed: 1,
-        minimumValue: 0.5,
-        sync: false,
-      },
     },
     size: {
-      value: 4,
-      random: {
-        enable: true,
-        minimumValue: 2,
-      },
-      anim: {
-        enable: false,
-        speed: 30,
-        minimumValue: 0.1,
-        sync: true,
-      },
+      value: {
+        min: 2,
+        max: 5
+      }
     },
     links: {
       enable: true,
@@ -63,65 +38,72 @@ export const options: ISourceOptions = {
       opacity: 0.9,
       width: 1,
       consent: false,
-      blink: false,
+      blink: true,
     },
     move: {
       enable: true,
       speed: 2,
       direction: 'none',
       random: false,
-      straight: false,
-      outMode: 'bounce',
-      bounce: false,
-      attract: {
-        enable: false,
-        rotateX: 600,
-        rotateY: 1200,
-      },
+      straight: true,
+      outModes: 'bounce'
     },
   },
   interactivity: {
-    detectsOn: 'canvas',
+    detectsOn: 'window',
     events: {
-      onhover: {
-        enable: true,
-        mode: 'repulse',
-      },
-      onclick: {
+      onDiv: [
+        {
+          enable: true,
+          selectors: '.bounce',
+          mode: 'bounce',
+          type: 'rectangle'
+        },
+      ],
+      onClick: {
         enable: true,
         mode: 'push',
       },
-      resize: true,
+      onHover: {
+        enable: true,
+        mode: 'grab',
+      },
+      resize: {
+        enable: true
+      }
     },
     modes: {
       attract: {
-        distance: 100,
+        distance: 200,
         duration: 1,
-        speed: 5,
+        speed: 2,
       },
       bubble: {
-        distance: 400,
-        size: 40,
-        duration: 2,
+        distance: 300,
+        size: 20,
+        duration: 1,
         opacity: 8,
       },
       grab: {
-        distance: 400,
+        distance: 120,
         links: {
-          opacity: 1,
+          opacity: 0.8,
         },
       },
       push: {
-        quantity: 3,
+        quantity: 5,
       },
       remove: {
-        quantity: 2,
+        quantity: 20,
       },
       repulse: {
-        distance: 100,
-        duration: 1,
+        distance: 150,
+        duration: 2,
       },
+      pause: {
+        distance: 200,
+        duration: 2,
+      }
     },
   },
-  key: '3m@62^K^88745%',
 };
