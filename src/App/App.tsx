@@ -1,14 +1,19 @@
 import { useEffect, useState } from 'react';
-
 import './App.scss';
 import { AppProvider } from './AppContext';
-import { Buttons, Content, Footer, Particles, Toggle } from 'components';
+import {
+  Buttons,
+  Content,
+  Footer,
+  ParticlesInternal,
+  Toggle,
+} from 'components';
 import { config } from './config';
+import { BackgroundInternal } from 'components/ParticlesContainer';
 
 export const App = () => {
   const [isReady, setIsReady]: [boolean, Function] = useState(false);
   const [isMobile, setIsMobile]: [boolean, Function] = useState(false);
-
   const init = () => {
     if (
       window.matchMedia(
@@ -42,7 +47,8 @@ export const App = () => {
         <Content />
         <Buttons />
         <Footer />
-        <Particles />
+        <ParticlesInternal />
+        <BackgroundInternal />
       </div>
     </AppProvider>
   ) : (
