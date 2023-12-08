@@ -3,8 +3,8 @@ import { Email, GitHub, LinkedIn, Resume } from 'icons';
 
 export const config: Config = {
   name: {
-    display: 'Adam Alston',
-    aria: 'My name is Adam Alston',
+    display: 'Michal Czuper',
+    aria: 'My name is Michal Czuper',
   },
   title: {
     display: 'Software Engineer',
@@ -16,14 +16,14 @@ export const config: Config = {
       display: 'GitHub',
       aria: 'Visit my GitHub profile',
       icon: <GitHub />,
-      href: 'https://github.com/adamalston/',
+      href: 'https://github.com/coolbigbear/',
     },
     {
       name: 'linked-in',
       display: 'LinkedIn',
       aria: 'Visit my LinkedIn profile',
       icon: <LinkedIn />,
-      href: 'https://www.linkedin.com/in/adam-alston/',
+      href: 'https://www.linkedin.com/in/michal-czuper/',
     },
     {
       name: 'resume',
@@ -37,7 +37,7 @@ export const config: Config = {
       display: 'Email',
       aria: 'Send me an email',
       icon: <Email />,
-      href: 'mailto:aalston9@gmail.com',
+      href: 'mailto:mrczuper@gmail.com',
     },
   ],
 };
