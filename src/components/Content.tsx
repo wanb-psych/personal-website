@@ -37,6 +37,7 @@ export const Content = () => {
     <>
       <C.Name
         data-v2="name"
+        className="title"
         theme={theme}
         aria-label={config.name.aria}
         title={config.name.aria}
@@ -45,6 +46,7 @@ export const Content = () => {
       </C.Name>
       <C.Title
         data-v2="title"
+        className="title"
         theme={theme}
         aria-label={config.title.aria}
         title={config.title.aria}
