@@ -2,7 +2,7 @@
 
 The [michalczuper.com](https://www.michalczuper.com) website is built using [React](https://react.dev) and hosted on [Netlify](https://www.netlify.com) forked from [Adam Alston](https://github.com/adamalston/v2).
 
-<img alt="Desktop preview" src="images/desktop.png" float="left" height="300"/> <img alt="Mobile preview" src="images/mobile.png" align="right" height="370"/>
+<img alt="Desktop preview" src="images/desktop-screenshot.png" float="left" height="300"/> <img alt="Mobile preview" src="images/mobile-screenshot.png" align="right" height="300"/>
 
 This website is designed to be simple and accessible. Dynamic particles create an interactive experience for visitors. The site offers two themes via a toggle: a dark theme (default) and a light theme. The selected theme persists between tabs, windows, and page reloads.
 
