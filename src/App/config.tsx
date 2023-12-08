@@ -30,7 +30,7 @@ export const config: Config = {
       display: 'Resume',
       aria: 'View my resume in Google Drive',
       icon: <Resume />,
-      href: 'https://drive.google.com/file/d/1VQ_Oeim_e92QEMi64ejGWY5Hf4RRxfeJ/view',
+      href: 'https://drive.google.com/file/d/11jP2kppWxEUQlGTCdljVdSvclPpt5xzE/view?usp=sharing',
     },
     {
       name: 'email',
