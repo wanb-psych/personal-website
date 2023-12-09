@@ -85,7 +85,7 @@ export const options: ISourceOptions = {
         opacity: 8,
       },
       grab: {
-        distance: 120,
+        distance: 320,
         links: {
           opacity: 0.8,
         },

@@ -9,8 +9,8 @@ const P = {
     background-color: ${({ theme }) => theme.background};
     background-repeat: repeat;
     background-size: cover;
-    height: 100%;
-    width: 100%;
+    min-height: 100vh;
+    min-width: 100%;
     z-index: -10;
 
     html {
