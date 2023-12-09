@@ -7,11 +7,15 @@ const P = {
     transition: background-color 0.5s linear;
     position: absolute;
     background-color: ${({ theme }) => theme.background};
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     height: 100%;
     width: 100%;
     z-index: -10;
+
+    html {
+      height: 100%
+    }
   `,
 };
 
