@@ -7,7 +7,7 @@ export const config: Config = {
     aria: 'My name is Bin Wan',
   },
   title: {
-    display: 'Researcher',
+    display: 'Researcher Interested in Cognitive Neurogenetics',
     aria: 'I am a researcher in Cognitive Neuroimaging',
   },
   buttons: [
