@@ -35,7 +35,7 @@ export const config: Config = {
     {
       name: 'email',
       display: 'Email',
-      aria: 'Send me an email',
+      aria: 'Send me an email: bin.wan.work@gmail.com',
       icon: <Email />,
       href: 'bin.wan.work@gmail.com',
     },
