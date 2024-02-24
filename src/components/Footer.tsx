@@ -31,17 +31,17 @@ export const Footer = () => {
       <F.Text
         data-v2="footer"
         theme={theme}
-        aria-label="Built by Michal Czuper"
+        aria-label="Built by Bin Wan"
       >
         {'Built by '}
         <F.Link
           data-v2="modifier"
           theme={theme}
-          href="https://www.michalczuper.com"
-          aria-label="Michal's website"
-          title="A link to Michal's personal website"
+          href="https://www.wanb-psych.com"
+          aria-label="Bin's website"
+          title="A link to Bin's personal website"
         >
-          {'Michal Czuper'}
+          {'Bin Wan'}
         </F.Link>
         {!isMobile && (
           <>
@@ -49,7 +49,7 @@ export const Footer = () => {
             <F.Link
               data-v2="source"
               theme={theme}
-              href="https://github.com/coolbigbear/personal-website"
+              href="https://github.com/wanb-psych/personal-website"
               aria-label="Source code"
               title="View this website's source code in GitHub"
             >
