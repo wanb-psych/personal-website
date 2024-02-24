@@ -1,6 +1,6 @@
 # <img alt="Atom icon" src="public/icons/favicon.svg" height="24"/> michalczuper<span></span>.com &middot; [![CI](https://github.com/adamalston/v2/actions/workflows/ci.yml/badge.svg)](https://github.com/adamalston/v2/actions/workflows/ci.yml) [![Netlify Status](https://api.netlify.com/api/v1/badges/b382074f-14cf-4ff5-b1a8-400babdcebe2/deploy-status)](https://app.netlify.com/sites/relaxed-swan-6bb7d2/deploys)
 
-The [michalczuper.com](https://www.michalczuper.com) website is built using [React](https://react.dev) and hosted on [Netlify](https://www.netlify.com) forked from [Adam Alston](https://github.com/adamalston/v2).
+The [wanb-psych.com](https://www.wanb-psych.com) website is built using [React](https://react.dev) and hosted on [Netlify](https://www.netlify.com) forked from [Adam Alston](https://github.com/adamalston/v2).
 
 <img alt="Desktop preview" src="images/desktop-screenshot.png" float="left" height="300"/> <img alt="Mobile preview" src="images/mobile-screenshot.png" align="right" height="300"/>
 
