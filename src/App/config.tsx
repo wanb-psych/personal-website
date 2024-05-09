@@ -4,12 +4,13 @@ import { Email, GitHub, LinkedIn, Resume } from 'icons';
 export const config: Config = {
   name: {
     display: 'Bin Wan',
-    aria: 'My name is Bin Wan',
+    aria: 'My name is Bin Wan, Ph.D. candidate',
   },
-  title: {
+  name: {
     display: 'Computational Neurogenetics',
     aria: 'Welcome to check my profile and get in touch if you are interested',
   },
+  
   buttons: [
     {
       name: 'github',
