@@ -6,7 +6,7 @@ export const config: Config = {
     display: 'Bin Wan',
     aria: 'My name is Bin Wan, Ph.D. candidate',
   },
-  name: {
+  title: {
     display: 'Computational Neurogenetics',
     aria: 'Welcome to check my profile and get in touch if you are interested',
   },
