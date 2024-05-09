@@ -7,8 +7,8 @@ export const config: Config = {
     aria: 'My name is Bin Wan',
   },
   title: {
-    display: 'Researcher Interested in Cognitive Neurogenetics',
-    aria: 'I am a researcher in Cognitive Neuroimaging',
+    display: 'Computational Neurogenetics',
+    aria: 'Welcome to check my profile and get in touch if you are interested',
   },
   buttons: [
     {
@@ -30,7 +30,7 @@ export const config: Config = {
       display: 'Resume',
       aria: 'View my resume in Google Drive',
       icon: <Resume />,
-      href: 'https://drive.google.com/file/d/1LMGPImNDeC9NDPTcYjS3Gu4pmywaBSje/view?usp=sharing',
+      href: 'https://drive.google.com/file/d/1hmjK75NoWg-MrbnPnNlWEtQwO6t4XMdp/view?usp=drive_link',
     },
     {
       name: 'email',
