@@ -38,7 +38,7 @@ export const config: Config = {
       display: 'Email',
       aria: 'Send me an email: bin.wan.work@gmail.com',
       icon: <Email />,
-      href: 'mailto:bin.wan.work@gmail.com',
+      href: 'mailto:binwan.academic@gmail.com',
     },
   ],
 };
