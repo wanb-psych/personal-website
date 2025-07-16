@@ -4,7 +4,7 @@ import { Email, GitHub, LinkedIn, Resume } from 'icons';
 export const config: Config = {
   name: {
     display: 'Bin Wan',
-    aria: 'My name is Bin Wan, Ph.D. candidate',
+    aria: 'My name is Bin Wan, Postdoc at Geneva Psychiatry and PhD at MPI CBS',
   },
   title: {
     display: 'Computational Neurogenetics',
@@ -31,7 +31,7 @@ export const config: Config = {
       display: 'Resume',
       aria: 'View my resume in Google Drive',
       icon: <Resume />,
-      href: 'https://drive.google.com/file/d/1hmjK75NoWg-MrbnPnNlWEtQwO6t4XMdp/view?usp=drive_link',
+      href: 'https://drive.google.com/file/d/1dNtXcVXVatm45wQ2s-v55HIi1u_XY0bn/view?usp=drive_link',
     },
     {
       name: 'email',
