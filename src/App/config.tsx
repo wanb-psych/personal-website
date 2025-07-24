@@ -3,11 +3,11 @@ import { Email, GitHub, LinkedIn, Resume } from 'icons';
 
 export const config: Config = {
   name: {
-    display: 'Hey! I am Bin Wan, <br/>I am a Postdoc at Geneva Psychiatry and a previous PhD at MPI CBS, <br/>I am Interested in Computational Neurogenetics',
+    display: 'Hey! I am Bin Wan, <br/> a Postdoc at Geneva Psychiatry <br/> previous PhD at MPI CBS. <br/> Working on the field of Computational Neurogenetics',
     aria: '',
   },
   title: {
-    display: 'The key question I am answering is: <br/> How the human mind (from behavior, ideology, to brain circuits) <br/> is shaped by nature and nurture',
+    display: 'The key question I am answering is: <br/> How the human mind <br/> (from behavior, ideology, to brain circuits) <br/> is shaped by nature and nurture',
     aria: '',
   },
   
