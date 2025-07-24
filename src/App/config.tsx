@@ -3,12 +3,13 @@ import { Email, GitHub, LinkedIn, Resume } from 'icons';
 
 export const config: Config = {
   name: {
-    display: 'Bin Wan',
-    aria: 'My name is Bin Wan, Postdoc at Geneva Psychiatry and PhD at MPI CBS',
+    display: 'Hey! I am Bin Wan. I am Postdoc at Geneva Psychiatry and a previous PhD at MPI CBS, and interested in Computational Neurogenetics,
+    aria: '',
   },
   title: {
-    display: 'Computational Neurogenetics',
-    aria: 'Welcome to check my profile and get in touch if you are interested',
+    display: 'The key question I am asking is: How the human mind (from behavior, ideology, to brain
+circuits) is shaped by nature and nurture',
+    aria: '',
   },
   
   buttons: [
