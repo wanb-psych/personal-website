@@ -16,12 +16,12 @@ const C = {
     font-size: 4rem;
     color: ${({ theme }) => theme.primaryTextColor};
     @media only screen and (max-device-width: 820px) and (-webkit-min-device-pixel-ratio: 2) {
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
   `,
   Title: styled.div`
     ${sharedStyles};
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin: 4rem 0;
     color: ${({ theme }) => theme.secondaryTextColor};
     @media only screen and (max-device-width: 820px) and (-webkit-min-device-pixel-ratio: 2) {
