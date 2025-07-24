@@ -32,6 +32,14 @@ const C = {
 
 export const Content = () => {
   const { config, theme } = useContext(AppContext);
+  
+  const nameHTML = Array.isArray(config.name.display)
+    ? config.name.display.join('<br/>')
+    : config.name.display;
+
+  const titleHTML = Array.isArray(config.title.display)
+    ? config.title.display.join('<br/>')
+    : config.title.display;
 
   return (
     <>
@@ -41,22 +49,16 @@ export const Content = () => {
         theme={theme}
         aria-label={config.name.aria}
         title={config.name.aria}
-      >
-        {Array.isArray(config.name.display)
-          ? config.name.display.map((line, idx) => <p key={idx}>{line}</p>)
-          : config.name.display}
-      </C.Name>
+        dangerouslySetInnerHTML={{ __html: nameHTML }}
+      />
       <C.Title
         data-v2="title"
         className="title"
         theme={theme}
         aria-label={config.title.aria}
         title={config.title.aria}
-      >
-        {Array.isArray(config.title.display)
-          ? config.title.display.map((line, idx) => <p key={idx}>{line}</p>)
-          : config.title.display}
-      </C.Title>
+        dangerouslySetInnerHTML={{ __html: titleHTML }}
+      />
     </>
   );
 };
