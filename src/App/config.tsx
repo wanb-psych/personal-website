@@ -3,15 +3,7 @@ import { Email, GitHub, LinkedIn, Resume } from 'icons';
 
 export const config: Config = {
   name: {
-    display: 'Hey! I am Bin Wan',
-    aria: '',
-  },
-  name:{
-    display: 'I am a Postdoc at Geneva Psychiatry and a previous PhD at MPI CBS',
-    aria: '',
-  },
-  name:{
-    display: 'I am Interested in Computational Neurogenetics',
+    display: ['Hey! I am Bin Wan', 'I am a Postdoc at Geneva Psychiatry and a previous PhD at MPI CBS','I am Interested in Computational Neurogenetics'],
     aria: '',
   },
   title: {
