@@ -3,14 +3,29 @@ import { Email, GitHub, LinkedIn, Resume } from 'icons';
 
 export const config: Config = {
   name: {
-    display: 'Hey! I am Bin Wan. <br />I am a Postdoc at Geneva Psychiatry and a previous PhD at MPI CBS. <br />Interested in Computational Neurogenetics',
+    display: 'Hey! I am Bin Wan',
+    aria: '',
+  },
+  name:{
+    display: 'I am a Postdoc at Geneva Psychiatry and a previous PhD at MPI CBS',
+    aria: '',
+  },
+  name:{
+    display: 'I am Interested in Computational Neurogenetics',
     aria: '',
   },
   title: {
-    display: 'The key question I am asking is: <br />How the human mind (from behavior, ideology, to brain circuits) \nis shaped by nature and nurture',
+    display: 'The key question I am asking is:',
     aria: '',
   },
-  
+  title: {
+    display: 'How the human mind (from behavior, ideology, to brain circuits)',
+    aria: '',
+  },
+  title: {
+    display: 'is shaped by nature and nurture',
+    aria: '',
+  },
   buttons: [
     {
       name: 'github',
